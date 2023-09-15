@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Climate+Crisis&family=Gruppo&family=Nabla&family=Orbitron:wght@800&family=Poiret+One&display=swap');
+
+
+* {
+	box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(17, 15, 18);
+  }
+
+img {
+	display: block;
+	max-width: 100%;
+    margin: 0px;
+}
+
+main {
+    display: flex;flex: 1 2 100px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    padding: 1rem;
+    max-width: 400px;
+    overflow: hidden;
+
+}
+
+.row2 {
+    padding: 1rem;
+    max-width: 800px;
+    max-height: 500px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+
+.row3 {
+    padding: 3rem;
+    max-width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+p {
+    color: #3a3a3b;
+    font-size: 1.1rem;
+    font-family: "Poiret One",cursive;
+}
+
+li{
+    color: #8d8d8d;
+    font-size: 1.1rem;
+    font-family: "Poiret One",cursive;
+}
+
+h1 {
+    color: #2e1b51;
+    font-family: "Orbitron",sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 4rem;
+    text-shadow: 3px 3px #ef5ce2;
+
+}
+
+h2 {
+    font-family: 'Foldit',cursive;
+    color: #ff1493;
+    font-weight:200;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    text-shadow: 1px 1px #420916;
+    
+}
+
+h3 {
+    font-family: 'Alegreya Sans SC',cursive;
+    font-size: 3rem;
+    color: #963ea1;
+    /* text-shadow: 1px 1px #420916; */
+    line-height: 3rem;
+    font-weight: 800;
+}
