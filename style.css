@@ -33,14 +33,23 @@ main {
 
 .row2 {
     padding: 1rem;
-    max-width: 800px;
+    max-width: 1100px;
     max-height: 500px;
     overflow: hidden;
     margin: 10px;
+    text-align: center;
+}
+
+.row3 {
+    padding: 1rem;
+    max-width: 800px;
+    overflow: hidden;
+    margin: 10px;
+    text-align: left;
 }
 
 
-.row3 {
+.row4 {
     padding: 3rem;
     max-width: 100%;
     text-align: center;
@@ -71,20 +80,10 @@ h1 {
 }
 
 h2 {
-    font-family: 'Foldit',cursive;
-    color: #ff1493;
-    font-weight:200;
-    font-size: 3.5rem;
-    line-height: 4rem;
-    text-shadow: 1px 1px #420916;
-    
-}
-
-h3 {
     font-family: 'Alegreya Sans SC',cursive;
     font-size: 3rem;
     color: #963ea1;
     /* text-shadow: 1px 1px #420916; */
     line-height: 3rem;
     font-weight: 800;
-}
+    
