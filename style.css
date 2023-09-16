@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Climate+Crisis&family=Gruppo&family=Nabla&family=Orbitron:wght@800&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Bowlby+One+SC&family=Climate+Crisis&family=Gruppo&family=Josefin+Sans:wght@100;400&family=Nabla&family=Orbitron:wght@800&family=Poiret+One&display=swap');
 
 
 * {
@@ -45,7 +45,7 @@ main {
     max-width: 800px;
     overflow: hidden;
     margin: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -56,15 +56,29 @@ main {
     overflow: hidden;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 1000px;
+    color: #c3c3c3;
+}
 
 p {
-    color: #3a3a3b;
+    color: #aaaaaa;
     font-size: 1.1rem;
     font-family: "Poiret One",cursive;
 }
 
 li{
-    color: #8d8d8d;
+    color: #c3c3c3;
     font-size: 1.1rem;
     font-family: "Poiret One",cursive;
 }
@@ -84,6 +98,28 @@ h2 {
     font-size: 3rem;
     color: #963ea1;
     /* text-shadow: 1px 1px #420916; */
+    line-height: 4rem;
+    font-weight: 800;
+    
+}
+
+h3 {
+    font-family: 'Alegreya Sans SC',cursive;
+    font-size: 3rem;
+    color: #deafff;
+    /* text-shadow: 1px 1px #420916; */
     line-height: 3rem;
     font-weight: 800;
+    
+}
+
+footer {
+    background-image: linear-gradient(rgb(17, 15, 18), rgba(70, 3, 65, 0.5));
+    color: #9e9e9e;
+    font-size: 1.1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1rem;
+    padding: 5%;
+    text-align: center;
+}
     
