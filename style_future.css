@@ -8,8 +8,12 @@
 
 
 body {
-    background-color: #EFEDFF;
+    background-image: url('assets/images/future_bg.png');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: rgba(255, 255, 255, 0.1); 
 }
+
 
 
 img {
@@ -28,7 +32,7 @@ main {
 
 .row {
     padding: 1rem;
-    max-width: 475px;
+    max-width: 700px;
     overflow: hidden;
 
 }
@@ -64,16 +68,16 @@ main {
     color: white;
     margin: 0px;
     display: block;
-	max-width: 80%;
+	max-width: 50%;
 }
 
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 1000px;
-    color: #c3c3c3;
+.container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    display: block;
+	max-width: 20%;
 }
 
 /* Style for the left button */
@@ -115,31 +119,31 @@ main {
 }
 
 p {
-    color: #676FB2;
+    color: rgb(255, 101, 240);
     font-size: 1.1rem;
     font-family: "Poiret One",cursive;
 }
 
 li{
     color: #c3c3c3;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-family: "Poiret One",cursive;
 }
 
 h1 {
-    color: #676FB2;
+    color: #442478;
     font-family: "Orbitron",sans-serif;
     font-size: 3.7rem;
     font-weight: 800;
     line-height: 4rem;
-    text-shadow: 3px 3px rgb(255,128,179);
+    text-shadow: 3px 3px rgb(255, 101, 240);
 
 }
 
 h2 {
     font-family: 'Alegreya Sans SC',cursive;
     font-size: 3rem;
-    color: #963ea1;
+    color: #653183;
     /* text-shadow: 1px 1px #420916; */
     line-height: 4rem;
     font-weight: 800;
@@ -152,12 +156,9 @@ h2 a {
 
 
 h3 {
-    font-family: 'Alegreya Sans SC',cursive;
-    font-size: 3rem;
-    color: #deafff;
-    /* text-shadow: 1px 1px #420916; */
-    line-height: 3rem;
-    font-weight: 800;
+    color: rgb(250, 250, 250);
+    font-size: 1.1rem;
+    font-family: "Poiret One",cursive;
     
 }
 
@@ -166,9 +167,8 @@ h3 a {
 }
 
 footer {
-    background-image: linear-gradient(#EFEDFF, rgba(148, 76, 190, 0.5));
-    color: #9e9e9e;
-    font-size: 1.1rem;
+    color: #fdfdfd;
+    font-size: 1.5rem;
     font-family: 'Josefin Sans', sans-serif;
     line-height: 1rem;
     padding: 5%;
